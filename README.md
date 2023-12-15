@@ -6,6 +6,7 @@
    - Yi Zhao, Song-Kyoo Kim, and Paul D. Yoo. 2023. Novel machine learning based biometric authentication systems by adapting tailor-made compact data learning. Submitted(2023).
 ## Revision History
 > 2023.12.03: Upload the ECG Toolbox in the Github (v.0.1).
+> 
 > 2023.12.15: Upload the ECG database (v.0.2).
 
 
