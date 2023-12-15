@@ -5,7 +5,9 @@
    - [Kim, S.-K. and et al. (2019), An Enhanced Machine Learning-based Biometric Authentication System Using RR-Interval Framed Electrocardiograms, IEEE Access 7 (Special Topic in Deep Learning: Security and Forensics Research Advances and Challenges), pp. 168669-168674.](https://ieeexplore.ieee.org/document/8907884)
    - Yi Zhao, Song-Kyoo Kim, and Paul D. Yoo. 2023. Novel machine learning based biometric authentication systems by adapting tailor-made compact data learning. Submitted(2023).
 ## Revision History
+> 2023.12.03: Upload the ECG Toolbox in the Github (v.0.1).
+> 2023.12.15: Upload the ECG database (v.0.2).
 
 
 
-### Code created by Zhao Yi [v0.0.1 || 2023/05/25]
+### Code created by Zhao Yi [v0.2 || 2023/05/25]
