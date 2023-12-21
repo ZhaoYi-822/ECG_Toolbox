@@ -22,8 +22,6 @@ def ecgprocess(origin_ecg_path, ecg_name, slice_interval):
       Made by Zhao Yi [v0.3 || 12/21/2023]
     """
 
-
-
     interval = slice_interval
     record = wfdb.rdrecord(origin_ecg_path+'/'+ecg_name, channels=[0])
     f = record.fs
