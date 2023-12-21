@@ -1,16 +1,7 @@
 
 import matplotlib.pyplot as plt
 import numpy as np
-
 from ECG_Tool.ECG_Process import stmgen
-
-
-
-
-
-
-
-
 
 def functionname(sfq, ECG_Data, DispOptn):
     """
