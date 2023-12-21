@@ -1,10 +1,28 @@
-import math
+
 
 import numpy as np
 from matplotlib import pyplot as plt
 
 
 def functionname(OrignalData,TargetFrame,DispOptn):
+    """
+        Changing the sampling squence frame of the signal
+
+        Usage:
+            RevisedData = functionname(OrignalData,TargetFrame,DispOptn)
+        Output:
+            RevisedData   : Revised signal after framing the ECG
+        Input:
+            OrignalData   : ECG data
+            TargetFrame   : Frequency of change（
+            DispOptn      : Display Option [Off (0) or On (1)]
+
+        Note:
+            - Required Python file(s) : numpy, mean
+            - DispOptn: Display option for ploting [Off (0) or On (1)]
+
+          Made by Zhao Yi [v0.3 || 12/21/2023]
+        """
 
     ecg0=OrignalData
     ecg0=ecg0.flatten()
@@ -58,19 +76,14 @@ def functionname(OrignalData,TargetFrame,DispOptn):
     NumofSlot = sq0len
 
     if DispOptn == 1:
-
-
-
         plt.subplot(2, 1, 1)
         plt.plot(sq0,ecg0)
         plt.title('Original Signal (Number of Slots =' +str(onelength-1) +')' )
-
 
         a=np.linspace(0,UnitFrame,UnitFrame+1)
         plt.subplot(2, 1, 2)
         plt.plot(a, ecg1,'r')
         plt.title('Revised Signal (Number of Slots =' +str(UnitFrame)+ ')')
         plt.show()
-
 
     return RevisedData

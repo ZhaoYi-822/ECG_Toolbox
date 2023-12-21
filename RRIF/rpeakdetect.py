@@ -9,6 +9,25 @@ from ECG_Tool.RRIF import rpeakdetect
 
 def functionname(Level, sfq, sig_dat):
 
+    """
+    Gives the R-peak index and values from ECG data
+
+    Usage:
+          Rpeak_Mat = functionname(Level, sfq, sig_dat)
+    Output:
+          Rpeak_Mat (2xN Array) = [Value of Peak, Index of Peak]
+    Input:
+        Level       :  Peak ratio
+        sfq         :  Sampling frequency
+        sig_dat     :  ECG data
+
+    Note:
+        - Original Matlab file: rpeakdetect, stmgen, pyplot, numpy, mode
+        - Adding for ploting the signal (with grid on)
+
+    Made by Zhao Yi [v0.3 || 12/21/2023]
+    """
+
     sig_dat=sig_dat.flatten()
     d0=sig_dat
     DispOptn=0

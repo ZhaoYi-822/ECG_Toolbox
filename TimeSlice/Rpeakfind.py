@@ -9,6 +9,27 @@ from ECG_Tool.TimeSlice import Rpeakfind
 
 def functionname(Level,SampleFreq, Sig_data):
 
+    """
+    Gives the R-peak index and values from ECG data
+
+    Usage:
+          Rpeak_Mat,a_m = functionname(Level,SampleFreq, Sig_data)
+    Output:
+          Rpeak_Mat (2xN Array) = [Value of Peak, Index of Peak]
+          a_m   :   Value of Peak
+    Input:
+        Level       :  Peak ratio
+        SampleFreq  :  Sampling frequency
+        sig_dat     :  ECG data
+
+    Note:
+        - Original Matlab file: Rpeakdect, stmgen, pyplot, numpy, mode
+        - Adding for ploting the signal (with grid on)
+
+    Made by Zhao Yi [v0.3 || 12/21/2023]
+    """
+
+
     sig_dat = Sig_data
     DispOptn = 0
     sfq = SampleFreq
@@ -57,6 +78,7 @@ def functionname(Level,SampleFreq, Sig_data):
         Peak_Rev = PeakLevel * 0.9
         Rpeak_Mat = Rpeakfind.functionname(Peak_Rev, sfq, sig_dat)
     print('Finding total ', a_m, ' R-peaks on the signal........')
+
     if DispOptn == 1:
         plt.title('Ploting ECG with R-R Peaks')
 

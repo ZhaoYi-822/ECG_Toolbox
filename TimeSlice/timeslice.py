@@ -6,7 +6,26 @@ from ECG_Tool.ECG_Process import stmgen
 from ECG_Tool.TimeSlice import Rpeakfind
 
 
-def function(fs, ECG_data, SliceTime, DisplayOption):
+def functionname(fs, ECG_data, SliceTime, DisplayOption):
+    """
+         Slicing the ECG signal based on the slice time
+
+        Usage:
+            Data4ML = functionname(fs, ECG_data, SliceTime, DisplayOption)
+        Output:
+            Data4ML     : [MxN]-Matrix for N sliced samples
+        Input:
+            fs              : Sampling frequency
+            ECG_data        : ECG data
+            SliceTime       : Time for slicing the data [sec]
+            DisplayOption   : [0 (Off), 1 (2D-plot), 3(3D-plot)]
+
+        Note:
+            - Required Python file(s) : stmgen, Rpeakfind, pyplot, numpy
+            - Adding the plotting feature (Supporting 3D)
+
+        Made by Zhao Yi [v0.3 || 12/21/2023]
+      """
 
 
     ECG_data = ECG_data.flatten()
@@ -21,6 +40,7 @@ def function(fs, ECG_data, SliceTime, DisplayOption):
     d1 = Sig_data
     f = SampleFreq
     a,rpeak_num = Rpeakfind.functionname(0.6, f, d1)
+
     [stm, stm_ed] = stmgen.functionname(f, 0, d1)
     stm = stm.flatten()
     stm_len = len(stm)
