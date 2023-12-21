@@ -17,7 +17,7 @@ def ecgprocess(origin_ecg_path, ecg_name, slice_interval):
 
       Note:
           - Required Python file(s) : baselinedrift, ecgflip, remove_noise, wfdb
-          - Open source ECG tool library: WFDB
+          - Open source ECG tool library: WFDB (https://github.com/MIT-LCP/wfdb-python)
 
       Made by Zhao Yi [v0.3 || 12/21/2023]
     """
