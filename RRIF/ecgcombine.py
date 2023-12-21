@@ -11,7 +11,7 @@ def functionname(rrif_ecg,ecg_seq,slice_ecg,file_rename,file):
             rrif_ecg        : RR Interval Framed Sliced Data
             ecg_seq         : R peak data location
             slice_ecg       : Time-sliced data
-            file_rename     : Save filename
+            file_rename     : Saved filename
             file            : Saved folder
 
         Note:
@@ -19,6 +19,7 @@ def functionname(rrif_ecg,ecg_seq,slice_ecg,file_rename,file):
 
           Made by Zhao Yi [v0.3 || 12/21/2023]
         """
+    
     slice_ecg = np.array(slice_ecg)
     rrif_num = rrif_ecg.shape[1]
     slice_num = slice_ecg.shape[1]
