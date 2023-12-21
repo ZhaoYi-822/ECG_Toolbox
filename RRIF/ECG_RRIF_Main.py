@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 
-from ECG_Tool.ECG_Process import preprocess
+from ECG_Tool.ECG_preprocess import preprocess
 from ECG_Tool.RRIF import ecgrpeakframe, ecgcombine
 
 if __name__ == "__main__":

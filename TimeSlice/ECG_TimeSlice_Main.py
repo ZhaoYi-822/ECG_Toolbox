@@ -5,7 +5,7 @@ import numpy as np
 import total_ecgprocess
 
 
-from ECG_Tool.ECG_Process import preprocess
+from ECG_Tool.ECG_preprocess import preprocess
 from ECG_Tool.TimeSlice import timeslice
 
 if __name__ == "__main__":

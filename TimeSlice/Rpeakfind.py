@@ -3,7 +3,7 @@ from statistics import mode
 import numpy as np
 from matplotlib import pyplot as plt
 
-from ECG_Tool.ECG_Process import stmgen
+from ECG_Tool.ECG_preprocess import stmgen
 from ECG_Tool.TimeSlice import Rpeakfind
 
 
