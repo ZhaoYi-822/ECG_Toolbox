@@ -1,5 +1,5 @@
 # ECG_Toolbox
-### This is the GitHub page of the ECG Toolbox for Python (Based on [amgecg Toolbox](https://github.com/amangkim/amgecg_toolbox?tab=readme-ov-file#youtube-demo-httpsyoutubetexym7gzz3c)).
+### This is the GitHub page of the ECG Toolbox for Python (Based on [amgecg Toolbox (matlab)](https://github.com/amangkim/amgecg_toolbox?tab=readme-ov-file#youtube-demo-httpsyoutubetexym7gzz3c)).
 
 ## Reference Citation
    - [Kim, S.-K., Yeun, C. Y., Damiani, E. and Lo, N.-W., A Machine Learning Framework for Biometric Authentication using Electrocardiogram, IEEE Access 7 (2019), pp. 94858-94868.](https://ieeexplore.ieee.org/document/8756039)
