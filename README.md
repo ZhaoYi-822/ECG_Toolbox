@@ -10,8 +10,10 @@
 
 2023.12.03: Upload the ECG Toolbox in the Github (v.0.1).
 
-2023.12.15: Upload the ECG database in the Github (v.0.2).
+2023.12.20: Upload the ECG database in the Github (v.0.2).
+
+2023.12.22: Update the ECG Toolbox in the Github (v.0.3).
 
 
 
-### Code created by Zhao Yi [v0.2 || 2023/12/15]
+### Code created by Zhao Yi [v0.3 || 2023/12/15]
