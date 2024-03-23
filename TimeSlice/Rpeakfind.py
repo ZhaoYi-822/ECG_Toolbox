@@ -23,7 +23,7 @@ def functionname(Level,SampleFreq, Sig_data):
         sig_dat     :  ECG data
 
     Note:
-        - Original Matlab file: Rpeakdect, stmgen, pyplot, numpy, mode
+        - Original Python file: Rpeakdect, stmgen, pyplot, numpy, mode
         - Adding for ploting the signal (with grid on)
 
     Made by Zhao Yi [v0.3 || 12/21/2023]
