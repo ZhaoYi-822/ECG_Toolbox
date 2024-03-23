@@ -13,7 +13,7 @@ def function(Data4ML,filename,folder):
         folder      :  Saved folder
 
     Note:
-        - Original Matlab file: pandas
+        - Original Python file: pandas
 
     Made by Zhao Yi [v0.3 || 12/21/2023]
     """
