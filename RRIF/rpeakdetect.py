@@ -22,7 +22,7 @@ def functionname(Level, sfq, sig_dat):
         sig_dat     :  ECG data
 
     Note:
-        - Original Matlab file: rpeakdetect, stmgen, pyplot, numpy, mode
+        - Original Python file: rpeakdetect, stmgen, pyplot, numpy, mode
         - Adding for ploting the signal (with grid on)
 
     Made by Zhao Yi [v0.3 || 12/21/2023]
