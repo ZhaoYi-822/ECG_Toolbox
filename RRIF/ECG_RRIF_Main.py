@@ -23,7 +23,7 @@ if __name__ == "__main__":
         TargetFrame         :  Target frame
 
      Note:
-        - Original Matlab file: preprocess, ecgrpeakframe, ecgcombine, numpy, pandas
+        - Original Python file: preprocess, ecgrpeakframe, ecgcombine, numpy, pandas
 
      Made by Zhao Yi [v0.3 || 12/21/2023]
     """
