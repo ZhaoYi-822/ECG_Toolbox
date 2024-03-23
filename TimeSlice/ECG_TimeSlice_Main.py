@@ -23,7 +23,7 @@ if __name__ == "__main__":
             SliceTime           :  Sliced ECG data interval
 
         Note:
-            - Original Matlab file: preprocess, timeslice, total_ecgprocess, numpy
+            - Original Python file: preprocess, timeslice, total_ecgprocess, numpy
 
         Made by Zhao Yi [v0.3 || 12/21/2023]
         """
