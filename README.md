@@ -4,7 +4,7 @@
 ## Reference Citation
    - [Kim, S.-K., Yeun, C. Y., Damiani, E. and Lo, N.-W., A Machine Learning Framework for Biometric Authentication using Electrocardiogram, IEEE Access 7 (2019), pp. 94858-94868.](https://ieeexplore.ieee.org/document/8756039)
    - [Kim, S.-K. and et al. (2019), An Enhanced Machine Learning-based Biometric Authentication System Using RR-Interval Framed Electrocardiograms, IEEE Access 7 (Special Topic in Deep Learning: Security and Forensics Research Advances and Challenges), pp. 168669-168674.](https://ieeexplore.ieee.org/document/8907884)
-   - Yi Zhao, Song-Kyoo Kim, and Paul D. Yoo. 2023. Novel machine learning based biometric authentication systems by adapting tailor-made compact data learning. Submitted (2023).
+   - Yi Zhao, Song-Kyoo Kim. 2023. Novel machine learning based biometric authentication systems by adapting tailor-made compact data learning. Submitted (2023).
      
 ## Revision History
 
