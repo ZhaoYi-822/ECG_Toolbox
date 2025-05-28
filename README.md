@@ -5,7 +5,7 @@
    - [Kim, S.-K., Yeun, C. Y., Damiani, E. and Lo, N.-W., A Machine Learning Framework for Biometric Authentication using Electrocardiogram, IEEE Access 7 (2019), pp. 94858-94868.](https://ieeexplore.ieee.org/document/8756039)
    - [Kim, S.-K. and et al. (2019), An Enhanced Machine Learning-based Biometric Authentication System Using RR-Interval Framed Electrocardiograms, IEEE Access 7 (Special Topic in Deep Learning: Security and Forensics Research Advances and Challenges), pp. 168669-168674.](https://ieeexplore.ieee.org/document/8907884)
    - [Y. Zhao and S.-K. Kim. Versatile machine learning-based authentications by using enhanced time-sliced electrocardiograms. Information, 15(4):187,2024.19](https://www.mdpi.com/2078-2489/15/4/187))
-   - [Y. Zhao and S.-K. Kim. Innovative Electrocardiogram Authentication System by Using Tailor-made Compact Data Learning. In IEEE Proceedings of ICCAE (2025), pp 326-330.)
+   -  [Y. Zhao and S. -K. Kim, "Innovative Electrocardiogram Authentication System by Using Tailor-Made Compact Data Learning," 2025 17th International Conference on Computer and Automation Engineering (ICCAE), Perth, Australia, 2025, pp.](https://ieeexplore.ieee.org/abstract/document/10980527))
 
      
 ## Revision History
